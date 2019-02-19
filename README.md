@@ -4,3 +4,5 @@ We created a 5' UTR library where the length of the random sequence upstream of 
 Random sequences and human native sequences are in the same dataset. Random sequences or human sequences can be selected by choosing the key word in set. For example: 'df = df1[df1['set']=='random']' or 'df = df1[df1['set']=='human']'. 
 
 Sequences shorter than 100 nt are filled with Ns on the 5' to reach the full length 100 nt. More details were shown in the ipython notebook.
+
+Current storage of the data 'varying_length_25to100_1.pkl' available here: https://drive.google.com/file/d/1w7o4vg04-2ujr5oBmjft-sCzFSDzQ9FI/view?usp=sharing
